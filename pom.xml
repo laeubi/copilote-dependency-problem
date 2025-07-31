@@ -19,6 +19,7 @@
 	<modules>
 		<module>com.microsoft.copilot.eclipse.core</module>
 		<module>com.microsoft.copilot.eclipse.ui</module>
+		<module>com.microsoft.copilot.eclipse.api</module>
 		<module>com.microsoft.copilot.eclipse.ui.terminal.legacy</module>
 		<module>com.microsoft.copilot.eclipse.ui.terminal</module>
 		<module>com.microsoft.copilot.eclipse.feature</module>

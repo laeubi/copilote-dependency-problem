@@ -8,5 +8,6 @@
 			<unit id="org.eclipse.tm.terminal.view.feature.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.tm.terminal.control.feature.feature.group" version="0.0.0"/>
 		</location>
-        </locations>
+		<location type="Target" uri="file:${project_loc:/github-copilot-for-eclipse}/base.target" />
+    </locations>
 </target>

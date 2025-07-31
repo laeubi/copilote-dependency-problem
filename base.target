@@ -66,10 +66,6 @@
 			<unit id="org.eclipse.e4.tools.preference.spy.feature.feature.group" version="0.1.0.v20200923-1237"/>
 			<unit id="org.eclipse.e4.tools.spies.feature.feature.group" version="0.18.0.v20200923-1237"/>
 		</location>
-		<location type="Target"
-            uri="file:${project_loc:/github-copilot-for-eclipse}/com.microsoft.copilot.eclipse.ui.terminal/target-terminal.target" />
-        <location type="Target"
-            uri="file:${project_loc:/github-copilot-for-eclipse}/com.microsoft.copilot.eclipse.ui.terminal.legacy/target-legacy-terminal.target" />
 	</locations>
 	<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21"/>
 </target>

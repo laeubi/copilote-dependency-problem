@@ -38,7 +38,4 @@ For the purpose of improving GitHub Copilot, Microsoft and GitHub may share with
          id="com.microsoft.copilot.eclipse.ui"
          version="0.0.0"/>
 
-   <plugin id="com.microsoft.copilot.eclipse.ui.terminal" version="0.0.0" fragment="true" optional="true"/>
-   <plugin id="com.microsoft.copilot.eclipse.ui.terminal.legacy" version="0.0.0" fragment="true" optional="true"/>
-
 </feature>

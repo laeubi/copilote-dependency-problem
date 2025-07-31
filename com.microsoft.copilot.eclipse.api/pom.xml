@@ -16,6 +16,14 @@
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
+                <configuration>
+                    <dependency-resolution>
+                        <optionalDependencies>ignore</optionalDependencies>
+                        <profileProperties>
+                            <com.microsoft.copilot.eclipse>true</com.microsoft.copilot.eclipse>
+                        </profileProperties>
+                    </dependency-resolution>
+                </configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>

@@ -4,4 +4,14 @@
       <category name="com.microsoft.copilot.eclipse.category"/>
    </feature>
    <category-def name="com.microsoft.copilot.eclipse.category" label="GitHub Copilot"/>
+   <iu>
+     <query> 
+       <expression type="match">id == 'com.microsoft.copilot.eclipse.ui.terminal'</expression>
+     </query>
+   </iu>
+   <iu>
+     <query> 
+       <expression type="match">id == 'com.microsoft.copilot.eclipse.ui.terminal.legacy'</expression>
+     </query>
+   </iu>
 </site>

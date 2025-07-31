@@ -38,3 +38,4 @@ replay_pid*
 **/whatisnew.html
 
 bin/
+.tycho*
